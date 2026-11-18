@@ -1,0 +1,56 @@
+ctrl ~ 終端機
+
+指示：
+
+npm init --yes
+
+因為是 import 所以 "type": "module"
+
+npm i dotenv linebot axios
+
+https://eslint.org/docs/latest/use/getting-started
+npm init @eslint/config@latest
+
+What do you want to lint?
+JavaScript
+
+To check syntax and find problems
+
+What type of modules does your project use? ... 
+> JavaScript modules (import/export) 
+
+Which framework does your project use? · none
+
+Does your project use TypeScript? · No
+
+Where does your code run? Node
+
+Would you like to install them now? · No / Yes
+√ Which package manager do you want to use? · npm
+
+npm i -D eslint-config-prettier eslint-plugin-prettier prettier nodemon
+
+package.json "scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+
+import 'dotenv/config'沒有 from 沒有變數，去執行這個檔案不要拉任何東西進來
+
+用雲端平台分配的 process.env.PORT 如果沒有才用 3000
+
+https://developers.line.biz/flex-simulator/
+
+startsWith 開頭是不是指定的東西
+
+物件有 past by reference 的問題，所以會更改到記憶體同一個物件，function return 給一個全新的物件
+
+避免三個都被改成最後一筆資料
+
+變成三個不同的 template
+
+.map(function)
+迴圈陣列，每個東西都執行提供的 function
+將每個東西執行 function 的 return 值變成新的陣列
+
+.slice(開始位置, 結束位置) 切割陣列，產生新陣列，不會修改原始陣列
